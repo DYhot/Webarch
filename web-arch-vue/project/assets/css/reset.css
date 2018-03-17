@@ -1,0 +1,192 @@
+#login-container,#lockscreen-container{
+  width: 100%;
+  height: 949px;
+  margin-top: 0;
+  background-color: #E5E9EC;
+}
+.permission-table{
+  height: 715px;
+  padding: 20px 20px 0 20px;
+  background-color: white;
+}
+#permission-page  .panel-heading,#permission-page  .panel-body{
+  background-color: white;
+}
+.permission-search{
+
+}
+.panel-body>div{
+  float: left;
+}
+.panel-body>div:not(:first-child){
+  margin-left: 2%;
+}
+.panel-body label{
+  margin-right: 5%;
+}
+.panel-body input{
+  width: 70%;
+}
+ .panel-body label,.panel-body .form-control{
+   display: inline-block;
+   line-height: 37px;
+}
+#permission-row-headimg{
+   width: 50px;
+   height: 50px;
+   border-radius: 25px;
+ }
+.permission-page-block{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+  background-color: white;
+  margin-top: 40px;
+}
+.permission-page-left{
+  float: left;
+  margin: 1% 0 0 4%;
+}
+.permission-modal-body,.modal-footer{
+  background-color: #ffffff;
+}
+.permission-modal-body{
+  height: 520px;
+  overflow: hidden;
+}
+.modal-footer{
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.admin-cancel{
+  margin-right: 15px;
+}
+.permission-submit{
+  margin: 0 20px;
+}
+.modal-body label{
+  display: inline-block;
+  margin-right: 10px;
+}
+.modal-body input{
+  border-radius: 5px;
+  /*float: right;*/
+}
+.modal-body>form>div{
+  margin-top: 20px;
+}
+ .demo{
+   width: 50px;
+   height: 50px;
+ }
+ /*提示框颜色修改*/
+.tooltip-inner{
+  background-color: #ED4A4B;
+}
+.tooltip.bottom .tooltip-arrow{
+  border-bottom-color: #ED4A4B;
+}
+/*头像上传部分*/
+.avatar-title{
+  margin-bottom: 30px;
+}
+ .el-upload--picture-card{
+  /*width: 261px;*/
+  float: left;
+  margin-left: 70px;
+}
+ .modal-body input{
+   display: none;
+ }
+.avatarbox{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin-left: 80px;
+  float: left;
+}
+.avatarbox h5{
+  margin-bottom: 30px;
+  color: #6B6E72;
+}
+.adavatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+
+.file {
+  position: relative;
+  display: inline-block;
+  background: #D0EEFF;
+  border: 1px solid #99D3F5;
+  border-radius: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  color: #1E88C7;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.file:hover {
+  background: #AADFFD;
+  border-color: #78C3F3;
+  color: #004974;
+  text-decoration: none;
+}
+canvas{
+  border:1px solid gainsboro;
+  border-style:dotted solid;
+
+}
+#imageBox{
+  position:relative;
+  display:inline-block;
+}
+#cutBox{
+  width:100px;
+  height:100px;
+  border:2px solid red;
+  position:absolute;
+  top:50px;
+  left:50px;
+}
+#imgShow{
+  display:inline-block;
+}
